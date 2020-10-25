@@ -1,11 +1,45 @@
 body{
-    margin: 0%;
+    margin: 0px;
+    margin-top: 0px;
+}
+nav ul{
+    margin: 0px;
+    text-align: center;
 }
 #headerr{
-    height: 79vh;
+
+    height: 80vh;
     width: 100vw;
-    background-image: url(../img/aab.jpg);
-    background-size: contain;
+    background-image: url(../img/aabbc2.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight:1000;
+    font-size: 20px;
+    transition: color 0.5s,text-decoration 0.5s;
+}
+nav{
+    margin-top: 40px;
+}
+nav ul li a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+#name-social{
+    text-align: center;
+    margin-top: 100px;
+}
+#name-social #name{
+    color: white;
+    word-spacing: 20px;
+    letter-spacing: 3px;
 }
