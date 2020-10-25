@@ -1,0 +1,11 @@
+body{
+    margin: 0%;
+}
+#headerr{
+    height: 79vh;
+    width: 100vw;
+    background-image: url(../img/aab.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
