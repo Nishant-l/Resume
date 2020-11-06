@@ -43,3 +43,21 @@ nav ul li a:hover{
     word-spacing: 20px;
     letter-spacing: 3px;
 }
+#icon li{
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 24px;
+    transition: box-shadow 0.1s;
+    border-radius: 50%;
+}
+#icon li img{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    
+}
+#icon li:hover{
+    
+    /* border: 1px gray solid; */
+    box-shadow: 0px 0px 6px 7px rgba(71, 69, 69, 0.651);
+}
