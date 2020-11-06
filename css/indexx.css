@@ -81,6 +81,7 @@ nav ul li a:hover{
     align-items: center;
     height: 20rem;
     /* border: 2px black solid; */
+    background-color:whitesmoke;
 }
 #indicator_containor{
     display: flex;
@@ -97,4 +98,44 @@ nav ul li a:hover{
     background-color: rgba(179, 184, 189, 0.596);
     border-radius: 2rem;
     margin: 30px;
+}
+.innerText{
+    text-align: center;
+    padding: 6px;
+}
+.seventy{
+    width: 70%;
+    height:100%;
+    background-color: blueviolet;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.five{
+    width: 80%;
+    height:100%;
+    background-color:  rgb(101, 197, 201);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+.forty{
+    width: 40%;
+    height:100%;
+    background-color: rgb(101, 197, 201);
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+#skills_title{
+    /* display: inline-block; */
+    font-family: sans-serif;
+    word-spacing: 2px;
+}
+#skills_title img{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+#skills_title h1{
+    display: inline-block;
+    margin-right: 10px;
 }
