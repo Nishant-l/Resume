@@ -6,9 +6,12 @@ nav ul{
     margin: 0px;
     text-align: center;
 }
+.famaly{
+    font-family: sans-serif;
+}
 #headerr{
 
-    height: 80vh;
+    height: 70vh;
     width: 100vw;
     background-image: url(../img/aabbc2.jpg);
     background-size: cover;
@@ -24,8 +27,8 @@ nav ul li a{
     text-decoration: none;
     margin-left: 25px;
     margin-right: 25px;
-    font-weight:1000;
-    font-size: 20px;
+    font-weight:500;
+    font-size: 15px;
     transition: color 0.5s,text-decoration 0.5s;
 }
 nav{
@@ -64,23 +67,23 @@ nav ul li a:hover{
 }
 #about_icon{
     display:block;
-    margin-left: 43vw;
-    margin-top: -10rem;
-    height: 17rem;
-    width: 17rem;
+    margin-left: 45vw;
+    margin-top: -7rem;
+    height: 11rem;
+    width: 11rem;
 }
 #para_text{
-    margin: 15rem;
-    margin-top: 3rem;
+    margin: 12rem;
+    margin-top: 2rem;
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 7rem;
     color: gray;
 }
 #skills{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20rem;
+    height: 30rem;
     /* border: 2px black solid; */
     background-color:whitesmoke;
 }
@@ -90,12 +93,14 @@ nav ul li a:hover{
     /* flex-direction: column; */
     justify-content: space-around;
     height: 15rem;
-    width: 60vw;
+    width: 70vw;
     /* border: 2px black solid; */
+    margin-top: 2rem;
+    color: white;
 }
 .ind{
-    height: 2rem;
-    width: 10rem;
+    height: 2.2rem;
+    width: 12rem;
     background-color: rgba(179, 184, 189, 0.596);
     border-radius: 2rem;
     margin: 30px;
@@ -107,21 +112,21 @@ nav ul li a:hover{
 .seventy{
     width: 70%;
     height:100%;
-    background-color: blueviolet;
+    background-color: #2857a4;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 .five{
     width: 80%;
     height:100%;
-    background-color:  rgb(101, 197, 201);
+    background-color:  #ec4d1c;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 .forty{
     width: 40%;
     height:100%;
-    background-color: rgb(101, 197, 201);
+    background-color: #93738c;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
@@ -129,6 +134,9 @@ nav ul li a:hover{
     /* display: inline-block; */
     font-family: sans-serif;
     word-spacing: 2px;
+    margin-top: 2.2rem;
+    font-size: 25px;
+    color: #2857a4;
 }
 #skills_title img{
     height: 30px;
@@ -145,8 +153,10 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: center;
     /* border: 2px black solid; */
-    height: 74vh;
+    height: 80vh;
     width: 98vw;
+    margin-top: 2rem;
+    color: #2857a4;
 }
 #icons{
     display: flex;
@@ -155,6 +165,7 @@ nav ul li a:hover{
     height: 60vh;
     width: 95vw;
     /* border: 2px black solid; */
+    margin-top: 2rem;
 }
 
 #icons img{
@@ -167,7 +178,7 @@ nav ul li a:hover{
 #icons div{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 90px;
+    margin-bottom: 7rem;
 
 }
 .hide{
@@ -176,11 +187,12 @@ nav ul li a:hover{
     margin: 0%;
 }
 #icons img:hover {
-    background-color: rgba(158, 158, 158, 0.301);
+    background-color: rgba(158, 158, 158, 0.4);
     box-shadow: 0px 0px 6px 4px gray;
     
 }
 img:hover +.hide{
     visibility: visible;
     color: black;
+    font-size: 1rem;
 }
